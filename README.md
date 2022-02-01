@@ -4,7 +4,7 @@ This is implementation of the [COBRA](https://doi.org/10.1016/j.jmva.2015.04.007
 algorithm, This is a straight forward implementation of the algorithm
 that is based on the paper.
 
-It is based upon Scikit-Survival Estimators.
+It is based upon Scikit-Learn Estimators.
 
 
 ### TODO :
