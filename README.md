@@ -12,6 +12,7 @@ It is based upon Scikit-Survival Estimators.
 2. Add the test cases
 3. Add the W&B support
 4. Add the support for the other optimizers
+5. Add JAX Support
 
 
 
