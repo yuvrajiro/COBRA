@@ -20,6 +20,8 @@ class COBRA(BaseEstimator):
     def __init__(self, estimators,debug = False):
         self.estimators = estimators
         self.debug = debug
+        self.estimator_names = [estimator.__class__.__name__ for estimator in self.estimators]
+        self.n_estimator = len(self.estimators)
 
     def fit(self, X, y ,split = 0.5,random_state = 0):
         """
